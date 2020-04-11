@@ -18,6 +18,8 @@ csvReader = csv.reader(parsedData)
 lineCount = 0
 countryMapping = {
   # Special mappings that are not able to look up in pycountry
+  'Canada':'CAN',
+  'United States of America': 'USA',
   'Korea, South': 'KOR',
   'Cruise Ship': 'CRUISE-1',
   'Taiwan*': 'TWN',
